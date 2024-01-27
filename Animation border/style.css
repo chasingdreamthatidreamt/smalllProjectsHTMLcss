@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    background-image: url("JavaScriptCode.jpg");
+}
+
+#firstdiv{
+    background-image: url(image/JavaScriptCode.jpg);
+    justify-content: center;
+    width: 50%;
+    height: 150px;
+    
+}

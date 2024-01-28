@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    color: aqua;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border: 2px solid white;
+    display: inline-block;
+    margin: 10px;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.box:nth-child(odd):hover{
+    background-color: blueviolet;
+}

@@ -4,18 +4,18 @@ body{
 
 .box{
     color: aqua;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
     border: 2px solid white;
     display: inline-block;
-    margin: 3px;
+    margin: 0.5px;
 }
 
 .box:hover{
-    background-color: white;
+    background-color: rgb(225, 65, 94);
 }
 
 .box:nth-child(odd):hover{
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 52);
 }

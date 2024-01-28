@@ -1,6 +1,10 @@
-let audio=document.querySelector("audio");
-let box=document.querySelector(".box");
+document.addEventListener("DOMContentLoaded", function() {
+    let audio = document.querySelector("audio");
+    let boxes = document.querySelectorAll(".box");
 
-box.addEventListener("mouseover",(event)=>{
-    audio.play();
-})
+    boxes.forEach(function(box) {
+        box.addEventListener("hover", function() {
+            audio.play();
+        });
+    });
+});

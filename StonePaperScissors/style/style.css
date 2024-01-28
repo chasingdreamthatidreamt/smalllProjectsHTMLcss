@@ -1,0 +1,70 @@
+body{
+    background-color: blue;
+    background-image: url("../images/background-main.jpg");
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    width: 1500px;
+    height: 90%;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    
+}
+
+.btn-refresh button{
+    justify-content: center;
+    width:100px;
+    height: 20px;
+}
+
+.GameIcon img{
+    width:160px;
+    height: 160px;
+    margin: auto;
+    float: right;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.GameImg{
+    margin: auto;
+    display: flex;
+    gap:80px;
+}
+
+.GameImg img{
+    width: 500px;
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+p{
+    border: solid  1px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
